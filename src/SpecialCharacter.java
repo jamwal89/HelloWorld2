@@ -1,9 +1,12 @@
 
 public class SpecialCharacter {
 	public static void main(String[] args) {
-		System.out.println("  **************");
-		System.out.println("*\t \t*\n*\t\t*\n*\t\t*\n*\t\t*");
+		String message1, message2;
+	    
+	    message1 = "\b\b\b\b\b\r\t\b";
+	    message2 = "";
+	    
+	    System.out.println(message1 + message2);
 		
-		System.out.println("  **************");
 }
 } 
