@@ -1,12 +1,14 @@
 public class HelloWorld2 {
  public static void main(String[] args) {
- int mynumber=2 ;
- float myothernumber=1.79f;
- System.out.println("The integer number is " + mynumber);
- System.out.println("The float number is " + myothernumber);
+ int x;
+ double y = 9.5f;
+ double z;
  
+ x = 5;
+ y = 9.5;
  
+ z = x * y;
+
+ System.out.println("The product is " + z);
  }
-}
-	
-	 
+} 
